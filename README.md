@@ -1,8 +1,8 @@
 # Rolling-Sphere
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
-
 public class Node<ObjectType>
 {
 	ObjectType data;
@@ -12,7 +12,6 @@ public class Node<ObjectType>
 		data = obj;
 	}
 }
-
 public class LinkedList<ObjectType>
 {
 	Node<ObjectType> begin;
